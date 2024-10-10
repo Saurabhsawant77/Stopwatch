@@ -1,0 +1,89 @@
+body{
+    background-image: url('../Stopwatch/Images/bgImg2.png');
+    background-size: cover;
+    background-position-x: right;
+}
+
+.container{
+ display: grid;  
+ grid-column: auto;
+}
+.header{
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    padding: 5px ;
+    text-align: center;
+    background: rgb(75, 194, 241);
+    margin: 50px auto;
+    width: 30%;
+    transition: width 2s;
+}
+
+.header:hover{
+    width: 50%;
+}
+.watch-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vh;
+    height: 50vh;
+    margin: auto ;
+    background: rgb(211, 176, 232);
+    border-radius: 10px;
+    box-shadow: 2px 0px 10px;
+    gap: 40px;
+    
+}
+
+.watch{
+    display: flex;
+}
+
+.hh,.mm,.ss,.ms{
+    background: white;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+span {
+    align-items: center;
+    background : none;
+    padding: 10px;
+    margin: 5px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    margin: 5px;
+    box-shadow: 2px 0px 3px;
+}
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: none;
+    
+}
+.start{
+    background: rgb(0, 255, 0);
+}
+
+
+.stop{
+    background: red;
+}
+
+.reset{
+    background: greenyellow;
+}
+
+.prev-record{
+    padding: 10px 20px;
+    background-color: #fff;
+    margin: 50px auto;
+    width: 50%;
+}
+
