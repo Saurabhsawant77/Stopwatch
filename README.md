@@ -12,4 +12,4 @@ The Stopwatch Application is a user-friendly tool designed to accurately measure
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Saurabhsawant77/Stopwatch.git
+      git clone https://github.com/Saurabhsawant77/Stopwatch.git
