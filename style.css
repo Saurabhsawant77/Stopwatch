@@ -1,0 +1,8 @@
+.header{
+    background: rgb(83, 198, 214);
+    text-align: center;
+}
+
+.timer{
+    display: flex;
+}
