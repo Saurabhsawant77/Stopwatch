@@ -13,21 +13,26 @@
         </div>
         <div class="watch-container">
             <div class="watch">
-                <div class="hh">21</div> <span >:</span>
-                <div class="mm">31</div> <span >:</span>
-                <div class="ss">10</div> <span >:</span>
-                <div class="ms">001</div>
+                <div class="hh" id="hh">00</div> <span >:</span>
+                <div class="mm"id="mm"> 00</div> <span >:</span>
+                <div class="ss" id="ss">00</div> <span >:</span>
+                <div class="ms" id="ms">000</div>
             </div>
             <div class="buttons">
-                <button class="btn start">Start</button>
-                <button class="btn stop">Stop</button>
-                <button class="btn reset">Reset</button>
+                <button class="btn start" id="start" onclick="start()">Start</button>
+                <button class="btn stop" id="stop" onclick="stop()">Stop</button>
+                <button class="btn reset" id="reset" onclick="reset()">Reset</button>
             </div>
         </div>
 
-        <div class="prev-record">
+        <div class="prev-record" id="prev-record">
+            <h3>Previous Records</h3>
+            <div class="records">
 
+            </div>
         </div>
     </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
